@@ -1,7 +1,7 @@
 async function main(params) {
-    var msg = `The claim has been approved.`;
+    var msg = `Processing approval for the claim is complete.`;
     if (params.id) {
-        msg = `The claim id no:  ${params.id} has been approved.`
+        msg = `Processing approval for claim: ${params.id} is complete.`
     }
     return {
         headers: { 'Content-Type': 'text/plain;charset=utf-8' },
